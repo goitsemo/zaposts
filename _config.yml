@@ -1,0 +1,29 @@
+title: zaposts
+description: A minimal blog page template
+
+url: https://github.com/goitsemo/blogposts/zaposts
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+# Header Option
+# header: large
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 10
+
+navigation:
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+
+social:
+  github: 
+  twitter: goitsemorena
+  facebook:
+  email: goitsemorena@outlook.com
+  linkedin: 
